@@ -1,0 +1,82 @@
+/*Global Styles*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #d6d6d6;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  border-radius: 15px;
+}
+
+th {
+  background-color: #858d95;
+  color: white;
+}
+
+h1 {
+  color: #darkgray;
+}
+
+/*Home page table styling*/
+
+.target-rows:nth-child(even) {
+  background-color: #a4d0f9;
+}
+
+.target-rows:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.target-rows:nth-last-child(1) > td:nth-child(1) {
+  border-bottom-left-radius: 15px;
+}
+
+.target-rows:nth-last-child(1) > td:nth-last-child(1) {
+  border-bottom-right-radius: 15px;
+}
+
+th:nth-child(1) {
+  border-top-left-radius: 15px;
+}
+
+th:nth-last-child(1){
+  border-top-right-radius: 15px;
+}
+
+th,
+td {
+  /*border: 1px solid black;*/
+  text-align: center;
+  padding: 10px;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+tr:nth-last-child(1) {
+  border: none;
+}
+
+/*Page Specific*/
+
+#add-contact-btn {
+  margin-top: 24px;
+}
+
+.table-headers {
+  width: 150px;
+}
+
+.contact-info {
+  line-height: 30px;
+}

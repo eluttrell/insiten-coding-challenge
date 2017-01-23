@@ -1,0 +1,32 @@
+{
+  "name": "insiten",
+  "version": "0.0.1",
+  "description": "Coding Challenge for Insiten interview",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eluttrell/insiten-coding-challenge.git"
+  },
+  "author": "Elijah Allstrom-Luttrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eluttrell/insiten-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/eluttrell/insiten-coding-challenge#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-cookies": "^1.6.1",
+    "angular-ui-router": "^0.4.2",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "pg-promise": "^5.5.2",
+    "uuid": "^3.0.1"
+  }
+}

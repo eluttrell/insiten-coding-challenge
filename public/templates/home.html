@@ -1,0 +1,29 @@
+<h1 class="center"><u>Target Companies</u></h1>
+<div class="container">
+  <table>
+    <tr>
+      <th></th>
+      <th class="table-headers"><h4><u>Name</u></h4></th>
+      <th class="table-headers"><h4><u>Status</u></h4></th>
+      <th><h4><u>Info</u></h4></th>
+      <th class="table-headers"><h4><u>Main Contact</u></h4></th>
+      <th></th>
+    </tr>
+    <tr class="target-rows" ng-repeat="target in targets track by $index">
+      <div class="test">
+        <td><button ng-click="editButton($index)" type="button" class="btn btn-primary">Edit</button></td>
+        <td>{{target.name}}</td>
+        <td>{{target.status}}</td>
+        <td><b>Basic Description:</b> {{target.info}} <hr> <b>Revenue:</b> {{target.financial}}</td>
+        <td><dd ng-repeat="contact in target.contacts"><span class="contact-info">{{contact.name}}</span><br></dd></td>
+        <td><button ng-click="deleteEntry($index)" type="button" class="btn btn-danger">Delete</button></td>
+      </div>
+    </tr>
+  </table>
+  <div class="center">
+    <br>
+    <button type="button" ng-click="addEntry()" class="btn btn-info">Add Entry</button>
+    <br>
+    <br>
+  </div>
+</div>
